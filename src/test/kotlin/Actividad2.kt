@@ -14,7 +14,7 @@ class Actividad2 {
 
         //Compruebo que la propiedad del sistema indicada corresponde al valor puesto en matches
         @EnabledIfSystemProperty(named="PROCESSOR_LEVEL", matches="23")
-        @EnabledIfSystemProperty(named="SESSIONAME", matches="Console")
+        //@EnabledIfSystemProperty(named="SESSIONAME", matches="Console")
         internal fun SistemProperty() {
             println("Propiedad del sistema correcta")
         }
